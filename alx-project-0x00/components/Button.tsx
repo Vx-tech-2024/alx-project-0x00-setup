@@ -2,7 +2,7 @@ import { ButtonProps } from "@/interfaces";
 
 const Button: React.FC<ButtonProps> = ({title, styles}) => {
     return (
-        <button className={`px-4 py-2 bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors ${styles}`}>
+        <button className={`px-4 py-2 bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors rounded-sm rounded-lg${styles}`}>
             {title}
         </button>
     );
