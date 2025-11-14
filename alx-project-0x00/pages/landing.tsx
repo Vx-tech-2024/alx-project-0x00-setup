@@ -4,7 +4,7 @@ const Landing: React.FC =  () => {
   return (
     <div>
       <h1 className=" text-xl font-extralight">Landing Page</h1>
-      <Card />
+      
       <div className="space-y-6 mb-8">
         <h2 className="text-lg font-semibold">Button Components</h2>
         
@@ -46,6 +46,7 @@ const Landing: React.FC =  () => {
           </div>
         </div>
       </div>
+      <Card />
     </div>
     
   )
